@@ -3,10 +3,10 @@ import { FormGroup, FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-login',
-  templateUrl: './login.component.html',
-  styleUrls: ['./login.component.less']
+  templateUrl: './signin.component.html',
+  styleUrls: ['./signin.component.less']
 })
-export class LoginComponent implements OnInit {
+export class SigninComponent implements OnInit {
 
   constructor() { }
 
