@@ -10,13 +10,15 @@ import { FlexLayoutModule } from "@angular/flex-layout";
 import { SigninComponent } from './signin/signin.component';
 import { SignupComponent } from './signup/signup.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { LandingComponent } from './landing/landing.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     SigninComponent,
-    SignupComponent
+    SignupComponent,
+    LandingComponent
   ],
   imports: [
     BrowserModule,
